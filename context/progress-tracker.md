@@ -4,15 +4,16 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Design system setup
+- Editor base chrome (02-editor)
 
 ## Current Goal
 
-- Install and configure shadcn/ui with Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea; install lucide-react; create lib/utils.ts with cn() helper
+- Implement editor-navbar and project-sidebar components; define dialog pattern
 
 ## Completed
 
 - Design system and UI primitives (shadcn/ui, lucide-react, lib/utils.ts with cn() helper)
+- Editor base chrome (editor-navbar, project-sidebar, dialog pattern)
 
 ## In Progress
 
