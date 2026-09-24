@@ -1,1 +1,85 @@
 @import "tailwindcss";
+
+@theme inline {
+  /* Background colors */
+  --color-bg-base: #080809;
+  --color-bg-surface: #111114;
+  --color-bg-elevated: #18181c;
+  --color-bg-subtle: #1e1e23;
+
+  /* Border colors */
+  --color-border-default: #2a2a30;
+  --color-border-subtle: #3a3a42;
+
+  /* Text colors */
+  --color-text-primary: #f0f0f4;
+  --color-text-secondary: #c0c0cc;
+  --color-text-muted: #808090;
+  --color-text-faint: #505060;
+
+  /* Accent colors */
+  --color-accent-primary: #00c8d4;
+  --color-accent-primary-dim: rgba(0, 200, 212, 0.12);
+  --color-accent-ai: #6457f9;
+  --color-accent-ai-text: #8b82ff;
+
+  /* State colors */
+  --color-state-error: #ff4d4f;
+  --color-state-success: #34d399;
+  --color-state-warning: #fbbf24;
+
+  /* Font families */
+  --font-geist-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-geist-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+:root {
+  --bg-base: #080809;
+  --bg-surface: #111114;
+  --bg-elevated: #18181c;
+  --bg-subtle: #1e1e23;
+  --border-default: #2a2a30;
+  --border-subtle: #3a3a42;
+  --text-primary: #f0f0f4;
+  --text-secondary: #c0c0cc;
+  --text-muted: #808090;
+  --text-faint: #505060;
+  --accent-primary: #00c8d4;
+  --accent-primary-dim: rgba(0, 200, 212, 0.12);
+  --accent-ai: #6457f9;
+  --accent-ai-text: #8b82ff;
+  --state-error: #ff4d4f;
+  --state-success: #34d399;
+  --state-warning: #fbbf24;
+
+  /* shadcn/ui CSS variables - dark theme */
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 180 100% 41.6%;
+  --primary-foreground: 240 10% 3.9%;
+  --secondary: 240 4.8% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 4.8% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 4.8% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 50.4%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 180 100% 41.6%;
+  --radius: 0.75rem;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+}

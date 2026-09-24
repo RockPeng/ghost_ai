@@ -4,19 +4,19 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Not started
+- Design system setup
 
 ## Current Goal
 
-- Define the immediate implementation goal here.
+- Install and configure shadcn/ui with Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea; install lucide-react; create lib/utils.ts with cn() helper
 
 ## Completed
 
-- None yet.
+- Design system and UI primitives (shadcn/ui, lucide-react, lib/utils.ts with cn() helper)
 
 ## In Progress
 
-- None yet.
+- None
 
 ## Next Up
 
